@@ -10,5 +10,13 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "phanda/framework": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../Phanda/"
+        }
+    ]
 }

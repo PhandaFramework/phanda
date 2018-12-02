@@ -1,0 +1,14 @@
+#!/usr/bin/env php
+<?php
+
+require __DIR__.'/vendor/autoload.php';
+
+/** @var \Phanda\Foundation\Application $phanda */
+$phanda = require_once __DIR__.'/bootstrap/phanda.php';
+
+/** @var \Phanda\Foundation\Console\Kernel $console */
+$console = $phanda->create(\Phanda\Foundation\Console\Kernel::class);
+
+$console->handle();
+
+exit();

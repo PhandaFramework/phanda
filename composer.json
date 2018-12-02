@@ -9,7 +9,13 @@
             "email": "storm@solarreviews.com"
         }
     ],
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
     "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "phanda/framework": "dev-master"
     },

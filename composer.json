@@ -1,0 +1,14 @@
+{
+    "name": "phanda/phanda",
+    "description": "The Phanda PHP Framework",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Storm Burpee",
+            "email": "storm@solarreviews.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

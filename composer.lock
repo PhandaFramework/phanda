@@ -4,8 +4,44 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cdd8f97b66b1f8c007e09feb8342c1ca",
+    "content-hash": "3eed43dd5bfe756078c94b91567b742a",
     "packages": [
+        {
+            "name": "phanda-framework/dotenv",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/phanda/dotenv.git",
+                "reference": "4548915f9af73eb1f0feae79d41f11bfb37e7d59"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/phanda%2Fdotenv/repository/archive.zip?sha=4548915f9af73eb1f0feae79d41f11bfb37e7d59",
+                "reference": "4548915f9af73eb1f0feae79d41f11bfb37e7d59",
+                "shasum": ""
+            },
+            "require": {
+                "vlucas/phpdotenv": "^2.5@dev"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phanda\\": "src/Phanda/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Storm Burpee",
+                    "email": "storm@phandaframework.com"
+                }
+            ],
+            "description": "A wrapper around vlucas/dotenv that provides additional functionality. Used in the Phanda framework to allow loading of multiple dotenv files.",
+            "time": "2018-12-05T03:51:15+00:00"
+        },
         {
             "name": "phanda/framework",
             "version": "dev-master",
@@ -1100,6 +1136,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "phanda-framework/dotenv": 20,
         "phanda/framework": 20
     },
     "prefer-stable": true,

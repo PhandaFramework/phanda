@@ -4,15 +4,15 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "413b3e9ec62ed4866aaab21ab5fedba2",
+    "content-hash": "cdd8f97b66b1f8c007e09feb8342c1ca",
     "packages": [
         {
             "name": "phanda/framework",
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "../Phanda",
-                "reference": "cd3fedb992f1cc5916658624789ab3f8eddd841d",
+                "url": "../framework",
+                "reference": "397102eb23f1368fdb9c894d5cad0d78ab5b1501",
                 "shasum": null
             },
             "require": {

@@ -1,12 +1,12 @@
 {
-    "name": "phanda/phanda",
+    "name": "phanda-framework/phanda",
     "description": "The Phanda PHP Framework",
     "type": "project",
     "license": "MIT",
     "authors": [
         {
             "name": "Storm Burpee",
-            "email": "storm@solarreviews.com"
+            "email": "storm@phandaframework.com"
         }
     ],
     "config": {
@@ -22,7 +22,7 @@
     "repositories": [
         {
             "type": "path",
-            "url": "../Phanda/"
+            "url": "../framework/"
         }
     ]
 }

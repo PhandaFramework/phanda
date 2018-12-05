@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3eed43dd5bfe756078c94b91567b742a",
+    "content-hash": "d929cd36236d9bc37d4fafd8790efddf",
     "packages": [
         {
             "name": "phanda-framework/dotenv",
-            "version": "dev-master",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/phanda/dotenv.git",
-                "reference": "4548915f9af73eb1f0feae79d41f11bfb37e7d59"
+                "reference": "79ede51964215f89ab5636b5d4f2580f7a965046"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/phanda%2Fdotenv/repository/archive.zip?sha=4548915f9af73eb1f0feae79d41f11bfb37e7d59",
-                "reference": "4548915f9af73eb1f0feae79d41f11bfb37e7d59",
+                "url": "https://gitlab.com/api/v4/projects/phanda%2Fdotenv/repository/archive.zip?sha=79ede51964215f89ab5636b5d4f2580f7a965046",
+                "reference": "79ede51964215f89ab5636b5d4f2580f7a965046",
                 "shasum": ""
             },
             "require": {
@@ -40,19 +40,20 @@
                 }
             ],
             "description": "A wrapper around vlucas/dotenv that provides additional functionality. Used in the Phanda framework to allow loading of multiple dotenv files.",
-            "time": "2018-12-05T03:51:15+00:00"
+            "time": "2018-12-05T04:30:20+00:00"
         },
         {
-            "name": "phanda/framework",
+            "name": "phanda-framework/framework",
             "version": "dev-master",
             "dist": {
                 "type": "path",
                 "url": "../framework",
-                "reference": "397102eb23f1368fdb9c894d5cad0d78ab5b1501",
+                "reference": "28385eb1bb5fffcf0adc6898ba7b95f54ba13bf7",
                 "shasum": null
             },
             "require": {
                 "ext-json": "*",
+                "phanda-framework/dotenv": "^0.1.1",
                 "php": "^7.1.3",
                 "symfony/console": "^4.2",
                 "symfony/dependency-injection": "^4.2",
@@ -62,8 +63,7 @@
                 "symfony/http-kernel": "^4.2",
                 "symfony/process": "^4.2",
                 "symfony/routing": "^4.2",
-                "symfony/var-dumper": "^4.2",
-                "vlucas/phpdotenv": "^2.5"
+                "symfony/var-dumper": "^4.2"
             },
             "type": "library",
             "autoload": {
@@ -81,7 +81,7 @@
             "authors": [
                 {
                     "name": "Storm Burpee",
-                    "email": "storm@solarreviews.com"
+                    "email": "storm@phandaframework.com"
                 }
             ],
             "description": "Phanda is a fast, modern PHP framework.",
@@ -1136,8 +1136,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "phanda-framework/dotenv": 20,
-        "phanda/framework": 20
+        "phanda-framework/framework": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

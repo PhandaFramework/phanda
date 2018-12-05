@@ -17,8 +17,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "phanda-framework/dotenv": "dev-master",
-        "phanda/framework": "dev-master"
+        "phanda-framework/framework": "dev-master"
     },
     "repositories": [
         {

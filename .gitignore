@@ -9,5 +9,5 @@
 /.vagrant
 npm-debug.log
 yarn-error.log
-.env
+*.env
 .DS_STORE

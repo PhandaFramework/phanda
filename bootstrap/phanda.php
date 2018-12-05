@@ -14,4 +14,9 @@ $phanda->singleton(
     \Phanda\Foundation\Console\Kernel::class
 );
 
+$phanda->singleton(
+    \Phanda\Contracts\Exceptions\ExceptionHandler::class,
+    \Phanda\Exceptions\ExceptionHandler::class
+);
+
 return $phanda;

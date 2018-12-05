@@ -19,6 +19,12 @@
     "require": {
         "phanda-framework/framework": "dev-master"
     },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Core\\": "core/"
+        }
+    },
     "repositories": [
         {
             "type": "path",

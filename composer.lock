@@ -109,13 +109,13 @@
             "dist": {
                 "type": "path",
                 "url": "../framework",
-                "reference": "8a116f0a44256661c51b7f4d5ef3f7e07b603bf6",
+                "reference": "76cb927c43f97d4c0d832f9e9e1ac0868d7e5854",
                 "shasum": null
             },
             "require": {
                 "ext-json": "*",
                 "filp/whoops": "^2.3",
-                "phanda-framework/dotenv": "^0.1.1",
+                "phanda-framework/dotenv": "^0.1.2",
                 "php": "^7.1.3",
                 "symfony/console": "^4.2",
                 "symfony/dependency-injection": "^4.2",

@@ -11,7 +11,9 @@ return [
     'url' => environment('app.APPLICATION_URL', 'http://localhost'),
 
     'providers' => [
-        \Phanda\Providers\Foundation\BootstrapKungfuServiceProviders::class
+        \Phanda\Providers\Foundation\BootstrapKungfuServiceProviders::class,
+
+        \Core\Providers\RouteServiceProvider::class
     ]
 
 ];

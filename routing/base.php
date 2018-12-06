@@ -2,9 +2,7 @@
 
 use Phanda\Support\Facades\Routing\Router;
 
-Router::get('home', '/', function() {
-    return "<h1>Hello, World! Welcome to Phanda</h1>";
-});
+Router::get('home', '/', 'HelloWorldController@index');
 
 Router::prefix('/hello')->group(function() {
    Router::get('hello-world', '/', function() {

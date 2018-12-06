@@ -3,6 +3,7 @@
 namespace Core\Providers;
 
 use Phanda\Providers\Routing\AbstractRouteServiceProvider;
+use Phanda\Support\Facades\Routing\Router;
 
 class RouteServiceProvider extends AbstractRouteServiceProvider
 {
@@ -23,8 +24,7 @@ class RouteServiceProvider extends AbstractRouteServiceProvider
      */
     protected function initializeBaseRoutes()
     {
-        $this->router
-            ->namespace($this->namespace)
+        Router::namespace($this->namespace)
             ->group(base_path('routing/base.php'));
     }
 }

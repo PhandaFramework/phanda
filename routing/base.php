@@ -1,9 +1,10 @@
 <?php
 
 use Phanda\Support\Facades\Routing\Router;
+use Phanda\Support\Facades\Scene\Scene;
 
 Router::get('home', '/', function() {
-    return scene('welcome');
+    return Scene::create('welcome');
 });
 
 Router::prefix('/hello')->group(function() {

@@ -109,7 +109,7 @@
             "dist": {
                 "type": "path",
                 "url": "../framework",
-                "reference": "79505d6ec8fb50cc0deec9f546626a91df3bdd78",
+                "reference": "06900e906484e1523efd6fb682e4b3bd95a72835",
                 "shasum": null
             },
             "require": {

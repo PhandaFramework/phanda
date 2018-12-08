@@ -3,7 +3,7 @@
 use Phanda\Support\Facades\Routing\Router;
 
 Router::get('home', '/', function() {
-    return view('welcome');
+    return scene('welcome');
 });
 
 Router::prefix('/hello')->group(function() {

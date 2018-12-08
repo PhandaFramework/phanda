@@ -6,14 +6,14 @@ class HelloWorldController extends \Phanda\Routing\Controller\AbstractController
 {
     public function index()
     {
-        return view('welcome');
+        return scene('welcome');
     }
 
     public function name($name)
     {
         $name = ucfirst(strtolower($name));
 
-        return view('welcome', [
+        return scene('welcome', [
             "name" => $name
         ]);
     }

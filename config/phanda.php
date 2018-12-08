@@ -14,7 +14,7 @@ return [
         \Phanda\Providers\Foundation\BootstrapKungfuServiceProviders::class,
         \Phanda\Providers\Scene\SceneServiceProvider::class,
         // Note: Any custom scene compiler should always be registered after the SceneServiceProvider.
-        \Phanda\Providers\Scene\Bamboo\BambooServiceProvider::class,
+        // \Phanda\Providers\Scene\Bamboo\BambooServiceProvider::class,
 
         \Core\Providers\RouteServiceProvider::class
     ]

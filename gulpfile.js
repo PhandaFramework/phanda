@@ -49,13 +49,7 @@ function watch() {
     gulp.watch(paths.js.src, javascript());
 }
 
-function build()
-{
-    styles();
-    javascript();
-}
-
 exports.styles = styles;
 exports.javascript = javascript;
 exports.watch = watch;
-exports.build = build;
+exports.build = gulp.series(styles, javascript);

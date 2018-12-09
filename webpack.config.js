@@ -46,12 +46,6 @@ const config = {
             filename: "[name].css",
         })
     ],
-
-    // OPTIONAL
-    // Reload On File Change
-    watch: true,
-    // Development Tools (Map Errors To Source File)
-    devtool: 'source-map',
 };
 
 // Exports

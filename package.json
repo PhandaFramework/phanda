@@ -1,8 +1,11 @@
 {
   "private": true,
   "scripts": {
-    "dev": "webpack-dev-server",
-    "prod": "webpack"
+    "build:dev": "cross-env NODE_ENV=development webpack --progress --hide-modules --mode development",
+    "build:prod": "cross-env NODE_ENV=production webpack --no-progress --hide-modules --mode production",
+    "dev": "npm run build:dev",
+    "prod": "npm run build:prod",
+    "watch": "npm run build:dev -- --watch"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.0",
@@ -12,6 +15,7 @@
     "@babel/register": "^7.0.0",
     "babel-loader": "^8.0.4",
     "babel-register": "^6.26.0",
+    "cross-env": "^5.2.0",
     "css-loader": "^2.0.0",
     "mini-css-extract-plugin": "^0.5.0",
     "node-sass": "^4.10.0",

@@ -3,7 +3,7 @@
 @stage('content')
 
 <div class="welcome">
-    <img src="{{ config('phanda.url') }}/images/phanda-logo.png">
+    <img src="{{ url('images/phanda-logo.png') }}">
     <h1>Welcome to the <span>phanda</span>framework</h1>
     <h2>Hello, {{ $name ?? "World" }}!</h2>
     <div class="help-links">

@@ -1,11 +1,9 @@
 {
   "private": true,
   "scripts": {
-    "build:dev": "cross-env NODE_ENV=development webpack --progress --hide-modules --mode development",
-    "build:prod": "cross-env NODE_ENV=production webpack --no-progress --hide-modules --mode production",
-    "dev": "npm run build:dev",
-    "prod": "npm run build:prod",
-    "watch": "npm run build:dev -- --watch"
+    "dev": "npm run watch",
+    "prod": "gulp build",
+    "watch": "gulp watch"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.0",
@@ -13,10 +11,16 @@
     "@babel/node": "^7.2.0",
     "@babel/preset-env": "^7.2.0",
     "@babel/register": "^7.0.0",
+    "autoprefixer": "^9.4.2",
     "babel-loader": "^8.0.4",
     "babel-register": "^6.26.0",
     "cross-env": "^5.2.0",
+    "cssnano": "^4.1.7",
     "gulp": "^4.0.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
     "node-sass": "^4.10.0"
   }
 }

@@ -1,6 +1,7 @@
 // Imports
 const path = require('path');
 const babelRegister = require("babel-register");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 // Webpack Configuration
 const config = {
@@ -26,13 +27,24 @@ const config = {
             // CSS Files
             {
                 test: /\.css$/,
-                use: ['style-loader', 'css-loader']
+                use: [MiniCssExtractPlugin.loader, 'style-loader', 'css-loader']
+            },
+            {
+                test: /\.scss$/,
+                use: [
+                    MiniCssExtractPlugin.loader,
+                    "css-loader",
+                    "sass-loader"
+                ]
             }
         ]
     },
 
     // Plugins
     plugins: [
+        new MiniCssExtractPlugin({
+            filename: "[name].css",
+        })
     ],
 
     // OPTIONAL

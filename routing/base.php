@@ -1,6 +1,7 @@
 <?php
 
 use Phanda\Support\Facades\Routing\Router;
+use Phanda\Support\Facades\Routing\RouteBuilder;
 use Phanda\Support\Facades\Scene\Scene;
 
 Router::get('/', function () {
@@ -16,8 +17,7 @@ Router::prefix('/hello')->name('hello')->group(function () {
 });
 
 // This is an example of using the route builder to build a route fluently.
-Router::builder()
-    ->anyMethod()
+RouteBuilder::anyMethod()
     ->setUrl('/welcome')
     ->setScene('welcome', ['name' => 'Stranger'])
     ->setName('welcome')

@@ -14,3 +14,11 @@ Router::prefix('/hello')->name('hello')->group(function () {
     Router::get('/', 'HelloWorldController@index', 'world');
     Router::get('/{name}', 'HelloWorldController@name', 'name');
 });
+
+// This is an example of using the route builder to build a route fluently.
+Router::builder()
+    ->anyMethod()
+    ->setUrl('/welcome')
+    ->setScene('welcome', ['name' => 'Stranger'])
+    ->setName('welcome')
+    ->build();

@@ -8,14 +8,14 @@ class HelloWorldController extends \Phanda\Routing\Controller\AbstractController
 {
     public function index()
     {
-        return Scene::create('welcome');
+        return Scene::render('welcome');
     }
 
     public function name($name)
     {
         $name = ucfirst(strtolower($name));
 
-        return Scene::create('welcome', [
+        return Scene::render('welcome', [
             "name" => $name
         ]);
     }

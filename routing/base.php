@@ -4,7 +4,7 @@ use Phanda\Support\Facades\Routing\Router;
 use Phanda\Support\Facades\Scene\Scene;
 
 Router::get('/', function () {
-    return Scene::create('welcome');
+    return Scene::render('welcome');
 }, 'home');
 
 Router::prefix('/hello')->name('hello')->group(function () {

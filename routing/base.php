@@ -17,6 +17,7 @@ Router::prefix('/hello')->name('hello')->group(function () {
 });
 
 // This is an example of using the route builder to build a route fluently.
+// Refer to the documentation for more information on the RouteBuilder
 RouteBuilder::anyMethod()
     ->setUrl('/welcome')
     ->setScene('welcome', ['name' => 'Stranger'])

@@ -9,5 +9,8 @@ return [
             'username' => environment('database.DATABASE_USERNAME', 'localuser'),
             'password' => environment('database.DATABASE_PASSWORD', 'localpassword')
         ]
-    ]
+    ],
+
+    'entity_location' => core_path('Model/Entity'),
+    'table_location' => core_path('Model/Table')
 ];

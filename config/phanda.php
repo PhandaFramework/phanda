@@ -14,6 +14,7 @@ return [
         \Phanda\Providers\Foundation\BootstrapKungfuServiceProviders::class,
         \Phanda\Providers\Http\ResponseServiceProvider::class,
         \Phanda\Providers\Caching\CachingServiceProvider::class,
+        \Phanda\Providers\Database\DatabaseServiceProvider::class,
         \Phanda\Providers\Scene\SceneServiceProvider::class,
 
         // Note: Any custom scene compiler should always be registered after the SceneServiceProvider.

@@ -109,11 +109,12 @@
             "dist": {
                 "type": "path",
                 "url": "../framework",
-                "reference": "06900e906484e1523efd6fb682e4b3bd95a72835",
+                "reference": "f71702e670054e02acb0dd4cc1b4d75418e7c7ad",
                 "shasum": null
             },
             "require": {
                 "ext-json": "*",
+                "ext-pdo": "*",
                 "filp/whoops": "^2.3",
                 "phanda-framework/dotenv": "^0.1.2",
                 "php": "^7.1.3",

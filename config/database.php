@@ -12,8 +12,5 @@ return [
             'username' => environment('database.DATABASE_USERNAME', 'root'),
             'password' => environment('database.DATABASE_PASSWORD', '')
         ]
-    ],
-
-    'entity_location' => core_path('Model/Entity'),
-    'table_location' => core_path('Model/Table')
+    ]
 ];

@@ -1,6 +1,6 @@
 @extends('layouts.default')
 
-@presenter('linkPresenter', \App\Presenter\PhandaLinkPresenter::class)
+@presenter('linkPresenter', \App\Presenters\PhandaLinkPresenter::class)
 
 @stage('content')
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Presenter;
+namespace App\Presenters;
 
 use Phanda\Presenter\AbstractPresenter;
 
@@ -24,14 +24,14 @@ class PhandaLinkPresenter extends AbstractPresenter
 	 * scene files.
 	 *
 	 * It's import to note however, that in the current version of Phanda, any variables that you define by using
-	 * $this->scene->share('variable', 'value'), can only be accessed in the scene by using `$this->variable`.
+	 * $this->share('variable', 'value'), can only be accessed in the scene by using `$this->variable`.
 	 * Currently there is no global way of sharing a variable after the scene has started rendering.
 	 *
 	 * @return void
 	 */
 	protected function initialize()
 	{
-		$this->scene->share('hello', 'world!');
+		$this->share('hello', 'world!');
 	}
 
 	/**
@@ -43,7 +43,7 @@ class PhandaLinkPresenter extends AbstractPresenter
 	 */
 	public function getLinks()
 	{
-		$this->scene->share('links', [
+		$this->share('links', [
 			'Phanda Website' => 'https://phandaframework.com',
 			'Documentation' => 'https://phandaframework.com/docs',
 			'News' => 'https://phandaframework.com/news',

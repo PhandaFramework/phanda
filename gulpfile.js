@@ -36,9 +36,7 @@ function javascript() {
         gulp
             .src(paths.js.src)
             .pipe(sourcemaps.init())
-            .pipe(babel({
-                presets: ['@babel/env']
-            }))
+            .pipe(babel())
             .pipe(uglify())
             .pipe(sourcemaps.write())
             .pipe(gulp.dest(paths.js.destination))

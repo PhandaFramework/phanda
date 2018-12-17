@@ -23,3 +23,14 @@ RouteBuilder::anyMethod()
     ->setScene('welcome', ['name' => 'Stranger'])
     ->setName('welcome')
     ->build();
+
+Router::get('/test', function() {
+	$table = new \Core\Model\Table\UsersTable();
+	/** @var \Core\Model\Entity\User $entity */
+	$entity = $table->get(2);
+
+	$entity->firstname = "Johnathon";
+	$table->saveEntity($entity);
+
+	return responseManager()->createJsonResponse($entity);
+});

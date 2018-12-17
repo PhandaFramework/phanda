@@ -4,7 +4,8 @@ const gulp = require("gulp"),
     autoprefixer = require("autoprefixer"),
     cssnano = require("cssnano"),
     sourcemaps = require("gulp-sourcemaps"),
-    uglify = require('gulp-uglify');
+    uglify = require('gulp-uglify'),
+    babel = require('gulp-babel');
 
 const paths = {
     styles: {
@@ -35,6 +36,9 @@ function javascript() {
         gulp
             .src(paths.js.src)
             .pipe(sourcemaps.init())
+            .pipe(babel({
+                presets: ['@babel/env']
+            }))
             .pipe(uglify())
             .pipe(sourcemaps.write())
             .pipe(gulp.dest(paths.js.destination))

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "121e412d15cf638cd795769559116f3e",
+    "content-hash": "8625cdabe027b8040148323fb70d0adc",
     "packages": [
         {
             "name": "filp/whoops",
@@ -105,7 +105,7 @@
         },
         {
             "name": "phanda-framework/framework",
-            "version": "dev-master",
+            "version": "0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/phanda/framework.git",
@@ -1256,9 +1256,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "phanda-framework/framework": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],

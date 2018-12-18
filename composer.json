@@ -24,11 +24,5 @@
             "App\\": "app/",
             "Core\\": "core/"
         }
-    },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../framework/"
-        }
-    ]
+    }
 }

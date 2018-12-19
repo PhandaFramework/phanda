@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8625cdabe027b8040148323fb70d0adc",
+    "content-hash": "921ad9ae7a9a52625136dd09b9ca00de",
     "packages": [
         {
             "name": "filp/whoops",
@@ -105,16 +105,16 @@
         },
         {
             "name": "phanda-framework/framework",
-            "version": "0.1.0",
+            "version": "v0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/phanda/framework.git",
-                "reference": "d36d59c903c07e4a141a2341c38fd8c5b13472fe"
+                "reference": "c502ebefe919f2f18b8c04c478d6423b05fe1e24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/phanda%2Fframework/repository/archive.zip?sha=d36d59c903c07e4a141a2341c38fd8c5b13472fe",
-                "reference": "d36d59c903c07e4a141a2341c38fd8c5b13472fe",
+                "url": "https://gitlab.com/api/v4/projects/phanda%2Fframework/repository/archive.zip?sha=c502ebefe919f2f18b8c04c478d6423b05fe1e24",
+                "reference": "c502ebefe919f2f18b8c04c478d6423b05fe1e24",
                 "shasum": ""
             },
             "require": {
@@ -159,7 +159,7 @@
                 "framework",
                 "phanda"
             ],
-            "time": "2018-12-18T10:21:30+00:00"
+            "time": "2018-12-19T13:11:22+00:00"
         },
         {
             "name": "psr/container",

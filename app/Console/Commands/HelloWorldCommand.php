@@ -23,7 +23,7 @@ class HelloWorldCommand extends ConsoleCommand
 	 */
 	public function handle()
 	{
-		$name = $this->getInputArgument('environment') ?? "World";
+		$name = $this->getInputArgument('name') ?? "World";
 		$this->info("Hello, {$name}!");
 	}
 

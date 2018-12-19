@@ -24,5 +24,10 @@
             "App\\": "app/",
             "Core\\": "core/"
         }
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "@php -r \"file_exists('environment/app.env') || copy('environment/app.env.example', 'environment/app.env');\""
+        ]
     }
 }

@@ -8,5 +8,7 @@ return [
 
 	'commands' => [
 		// You can register commands here, if you choose not to register a commands folder.
+		// For example:
+		// \App\Console\Commands\HelloWorldCommand::class
 	],
 ];

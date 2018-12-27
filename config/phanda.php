@@ -21,6 +21,9 @@ return [
         \Phanda\Providers\Scene\SceneServiceProvider::class,
         \Phanda\Providers\Scene\Bamboo\BambooServiceProvider::class,
 
+		// Comment this provider, if you are not planning on using WebSockets
+		\Phanda\Providers\Events\WebSocketServiceProvider::class,
+
 		// Your Applications Service Providers
         \Core\Providers\RouteServiceProvider::class
     ]

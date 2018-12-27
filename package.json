@@ -1,9 +1,9 @@
 {
   "private": true,
   "scripts": {
-    "dev": "npm run watch",
-    "prod": "gulp build",
-    "watch": "gulp watch"
+    "dev": "webpack",
+    "prod": "webpack",
+    "watch": "webpack"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.0",
@@ -16,13 +16,8 @@
     "babel-loader": "^8.0.4",
     "babel-register": "^6.26.0",
     "cross-env": "^5.2.0",
-    "cssnano": "^4.1.7",
-    "gulp": "^4.0.0",
-    "gulp-babel": "^8.0.0",
-    "gulp-postcss": "^8.0.0",
-    "gulp-sass": "^4.0.2",
-    "gulp-sourcemaps": "^2.6.4",
-    "gulp-uglify": "^3.0.1",
-    "node-sass": "^4.10.0"
+    "node-sass": "^4.10.0",
+    "webpack": "^4.28.2",
+    "webpack-cli": "^3.1.2"
   }
 }

@@ -1,5 +1,8 @@
 <?php
 
+// For these configuration options to be in use please make sure you've
+// Enabled the WebSocket server provider in the phanda configuration file.
+
 return [
 
 	'apps' => [

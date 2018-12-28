@@ -1,5 +1,4 @@
 const path = require('path');
-const nodeExternals = require('webpack-node-externals');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
@@ -11,7 +10,6 @@ module.exports = {
         filename: 'app.js'
     },
     target: 'node',
-    externals: [nodeExternals()],
     module: {
         rules: [
             {

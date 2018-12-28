@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "009dd8eb006f98ee1eb0fed4a5bf4493",
+    "content-hash": "d2799f5bedceed4c582f7cd68cdf6175",
     "packages": [
         {
             "name": "cboden/ratchet",
@@ -346,16 +346,16 @@
         },
         {
             "name": "phanda-framework/framework",
-            "version": "v0.1.5",
+            "version": "v0.1.6",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/phanda/framework.git",
-                "reference": "538a4a20fb6634d6dd21717815c3079fe05e3dd1"
+                "reference": "5a5000546151335e321e46deaa31cb1f1b3895c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/phanda%2Fframework/repository/archive.zip?sha=538a4a20fb6634d6dd21717815c3079fe05e3dd1",
-                "reference": "538a4a20fb6634d6dd21717815c3079fe05e3dd1",
+                "url": "https://gitlab.com/api/v4/projects/phanda%2Fframework/repository/archive.zip?sha=5a5000546151335e321e46deaa31cb1f1b3895c5",
+                "reference": "5a5000546151335e321e46deaa31cb1f1b3895c5",
                 "shasum": ""
             },
             "require": {
@@ -403,7 +403,7 @@
                 "framework",
                 "phanda"
             ],
-            "time": "2018-12-27T07:32:14+00:00"
+            "time": "2018-12-28T11:25:43+00:00"
         },
         {
             "name": "psr/container",

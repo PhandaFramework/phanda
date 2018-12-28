@@ -12,5 +12,7 @@
     </head>
     <body>
         @renderstage('content')
+
+        <script src="{{ url('js/app.js') }}"></script>
     </body>
 </html>
